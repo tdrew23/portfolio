@@ -5,6 +5,8 @@ import booki from '../img/booki.png'
 import printIn from '../img/Print-in.png'
 import architecte from '../img/architecte.png'
 import kasa from '../img/kasa.png'
+import photo from '../img/photo.png'
+import argentBank from '../img/argentBank.png'
 
 const Projects = () => {
     const projects = [
@@ -12,10 +14,10 @@ const Projects = () => {
         { name: 'Riding Cities', description: 'Site HTML', url: ' https://tdrew23.github.io/Riding-cities/', image: riding },
         { name: 'Booki', description: " Page d'accueil d'une agence de voyage avec HTML & CSS", url: 'https://tdrew23.github.io/Booki/', image: booki },
         { name: 'Print-in', description: 'Print-in Javascript', url: ' https://tdrew23.github.io/Print-it-JS/', image: printIn },
-        { name: 'Portfolio Architecte', description: 'Description du projet 3.', url: 'https://votre-utilisateur.github.io/projet-3/', image: architecte },
+        { name: 'Portfolio Architecte', description: 'Description du projet 3.', url: 'https://tdrew23.github.io/tdrew23-portfolio-architecte-Fontend/', image: architecte },
         { name: 'Kasa', description: 'Application web de location immobilière avec React', url: 'https://tdrew23.github.io/Kasa/', image: kasa },
-        { name: 'Projet 3', description: 'Description du projet 3.', url: 'https://votre-utilisateur.github.io/projet-3/', image: 'https://via.placeholder.com/300x200.png?text=Projet+3' },
-        { name: 'Projet 3', description: 'Description du projet 3.', url: 'https://votre-utilisateur.github.io/projet-3/', image: 'https://via.placeholder.com/300x200.png?text=Projet+3' },
+        { name: 'Nina Carducci', description: 'Site de photographe', url: 'https://tdrew23.github.io/Nina-Carducci/', image: photo },
+        { name: 'ArgentBank', description: 'Application bancaire  React.', url: 'https://votre-utilisateur.github.io/projet-3/', image: argentBank },
 
 
     ];
