@@ -27,7 +27,7 @@ const Header = () => {
     return (
         <header>
             <a href="#" className="logo-holder">
-                <div className="logo">L</div>
+                <div className="logo">T</div>
                 <div className="logo-text">Portfolio Website</div>
             </a>
             <nav>

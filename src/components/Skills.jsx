@@ -7,7 +7,6 @@ const Skills = () => {
         { name: 'JavaScript', icon: 'fa-js-square', description: 'Ajout d\'interactivité et de fonctionnalités dynamiques.' },
         { name: 'React', icon: 'fa-react', description: 'Développement d\'interfaces utilisateurs réactives.' },
         { name: 'Node.js', icon: 'fa-node', description: 'Création de backends performants et sécurisés.' },
-        { name: 'Base de Données', icon: 'fa-database', description: 'Gestion de données avec SQL et NoSQL.' },
     ];
 
     return (
