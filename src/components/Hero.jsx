@@ -7,12 +7,11 @@ const Hero = () => {
             <div className="hero-blue">
                 <div>
                     <h1>
-                        <small>Salut je suis</small>
+                        <small>Bonjour je suis </small>
                         Tariq Drewniak
-                    </h1>
+                    </h1> <br></br>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
+                    Développeur en constante évolution, je combine mes compétences en développement web avec une soif d'apprentissage. Chaque projet est pour moi une chance de grandir et de relever de nouveaux défis                    </p>
                     <div className="call-to-action">
                         <a href="#" className="button black">Voir mon CV</a>
                         <a href="#" className="button white">Contactez-moi</a>
