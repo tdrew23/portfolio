@@ -10,14 +10,14 @@ import argentBank from '../img/argentBank.png'
 
 const Projects = () => {
     const projects = [
-        { name: 'Ohmyfood', description: 'Site mobile avec des animations CSS', url: 'https://tdrew23.github.io/ohmyfood/', gitUrl : '', image: ohmyfood },
-        { name: 'Riding Cities', description: 'Site HTML', url: ' https://tdrew23.github.io/Riding-cities/' , gitUrl : '', image: riding },
-        { name: 'Booki', description: " Page d'accueil d'une agence de voyage avec HTML & CSS", url: 'https://tdrew23.github.io/Booki/' , gitUrl : '', image: booki },
-        { name: 'Print-in', description: 'Print-in Javascript', url: ' https://tdrew23.github.io/Print-it-JS/' , gitUrl : '', image: printIn },
-        { name: 'Portfolio Architecte', description: 'Description du projet 3.', url: 'https://tdrew23.github.io/tdrew23-portfolio-architecte-Fontend/' , gitUrl : '', image: architecte },
-        { name: 'Kasa', description: 'Application web de location immobilière avec React', url: 'https://tdrew23.github.io/Kasa/' , gitUrl : '', image: kasa },
-        { name: 'Nina Carducci', description: 'Site de photographe', url: 'https://tdrew23.github.io/Nina-Carducci/' , gitUrl : '', image: photo },
-        { name: 'ArgentBank', description: 'Application bancaire  React.', url: 'https://votre-utilisateur.github.io/projet-3/' , gitUrl : '', image: argentBank },
+        { name: 'Ohmyfood', description: 'Site mobile avec des animations CSS', url: 'https://tdrew23.github.io/ohmyfood/', gitUrl : 'https://github.com/tdrew23/ohmyfood.git', image: ohmyfood },
+        { name: 'Riding Cities', description: 'Site HTML', url: ' https://tdrew23.github.io/Riding-cities/' , gitUrl : 'https://github.com/tdrew23/Riding-cities.git', image: riding },
+        { name: 'Booki', description: " Page d'accueil d'une agence de voyage avec HTML & CSS", url: 'https://tdrew23.github.io/Booki/' , gitUrl : 'https://github.com/tdrew23/Booki.git', image: booki },
+        { name: 'Print-in', description: 'Print-in Javascript', url: ' https://tdrew23.github.io/Print-it-JS/' , gitUrl : 'https://github.com/tdrew23/Print-it-JS.git', image: printIn },
+        { name: 'Portfolio Architecte', description: 'Description du projet 3.', url: 'https://tdrew23.github.io/tdrew23-portfolio-architecte-Fontend/' , gitUrl : 'https://github.com/tdrew23/portfolio-architecte.git', image: architecte },
+        { name: 'Kasa', description: 'Application web de location immobilière avec React', url: 'https://tdrew23.github.io/Kasa/' , gitUrl : 'https://github.com/tdrew23/Kasa.git', image: kasa },
+        { name: 'Nina Carducci', description: 'Site de photographe', url: 'https://tdrew23.github.io/Nina-Carducci/' , gitUrl : 'https://github.com/tdrew23/Nina-Carducci.git', image: photo },
+        { name: 'ArgentBank', description: 'Application bancaire  React.', url: 'https://tdrew23.github.io/ArgentBank-Frontend/' , gitUrl : 'https://github.com/tdrew23/ArgentBank.git', image: argentBank },
 
 
     ];
@@ -32,7 +32,7 @@ const Projects = () => {
                         <h3>{project.name}</h3>
                         <p>{project.description}</p>
                         <a href={project.url} target="_blank" rel="noopener noreferrer" className="button">Voir le site</a>
-                        <a href="https://github.com/tdrew23/ohmyfood" target="_blank" rel="noopener noreferrer" className="github-link">
+                        <a href={project.gitUrl} target="_blank" rel="noopener noreferrer" className="github-link">
                         <i className="fa-brands fa-github"></i> Voir le code
                       </a>
                     </div>

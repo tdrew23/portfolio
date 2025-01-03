@@ -6,9 +6,9 @@ const Footer = () => {
             <div className="footer-container">
                 <div className="footer-info">
                     <h3>Contactez-moi</h3>
-                    <p>Email : <a href="mailto:example@email.com">example@email.com</a></p>
+                    <p>Email : <a href="mailto:example@email.com">tariqdrewniak16@gmail.com</a></p>
                     <p>Téléphone : <a href="tel:+1234567890">+123 456 7890</a></p>
-                    <p>Adresse : 123 Rue Exemple, Ville, Pays</p>
+                    <p>Adresse : 75019, Pays</p>
                 </div>
                 <div className="footer-socials">
                     <h3>Suivez-moi</h3>
